@@ -1,7 +1,8 @@
 {
     "functions": {
       "api": {
-        "runtime": "nodejs12.x"
+        "runtime": "nodejs12.x",
+        "maxDuration": 30
       }
     },
     "builds": [
@@ -25,3 +26,4 @@
       }
     ]
   }
+  
