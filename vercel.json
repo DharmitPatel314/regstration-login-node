@@ -1,8 +1,7 @@
 {
     "functions": {
       "api": {
-        "runtime": "nodejs12.x",
-        "timeout": 30
+        "runtime": "nodejs12.x"
       }
     },
     "builds": [
