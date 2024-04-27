@@ -11,11 +11,7 @@
                 "dest": "index.js"
             },
             {
-                "src": "/api/auth/register",
-                "dest": "index.js"
-            },
-            {
-                "src": "/api/auth/login",
+                "src": "/api/(.*)",
                 "dest": "index.js"
             }
         ]
