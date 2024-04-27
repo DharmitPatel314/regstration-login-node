@@ -14,5 +14,11 @@
                 "src": "/api/auth/register",
                 "dest": "index.js"
             }
-        ]
+        ],
+        "functions": {
+            "api/auth/register": {
+              "runtime": "@vercel/node",
+              "timeout": 30 
+            }
+          }
     }
