@@ -11,7 +11,7 @@ app.use(express.json());
 app.use(dbConnect); // Use the dbConnect middleware before any routes
 
 // Routes
-app.use('/api/auth', authRoutes);
+app.use('/auth', authRoutes);
 
 // Start server
 const PORT = process.env.PORT || 3000;
